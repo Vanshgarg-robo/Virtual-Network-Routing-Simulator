@@ -23,14 +23,14 @@ The project demonstrates the basic concepts of:
 ## 🏗️ Network Architecture
 
 ```
-                 Sender A
-                     |
-                     |
-                 Port 5001
-                     |
-                     |
-                 +---------+
-                 | Router  |
+        Sender A               Sender B
+            |                     |
+            |                     |
+        Port 5001             Port 5002
+            |                     |
+            |                     |
+            |    +---------+      |
+            |----| Router  |------|
                  +---------+
                  /    |    \
                 /     |     \
@@ -38,13 +38,6 @@ The project demonstrates the basic concepts of:
       Receiver A Receiver B Receiver C
         Port6001  Port6002   Port60045
 
-
-                 Sender B
-                     |
-                 Port 5002
-                     |
-                     |
-                  Router
 ```
 
 ---
@@ -214,15 +207,3 @@ Payload : Hello from Sender_a
 ## 👨‍💻 Author
 
 **Vansh Garg**
-
-B.Tech Electronics and Communication Engineering
-
-IIIT Ranchi
-
-GitHub: https://github.com/Vanshgarg-robo
-
-LinkedIn: *(Add your LinkedIn profile URL here)*
-
----
-
-## ⭐ If you found this project useful, consider giving it a star.
