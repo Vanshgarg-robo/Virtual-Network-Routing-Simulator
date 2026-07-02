@@ -25,9 +25,7 @@ The project demonstrates the basic concepts of:
 ```
         Sender A               Sender B
             |                     |
-            |                     |
         Port 5001             Port 5002
-            |                     |
             |                     |
             |    +---------+      |
             |----| Router  |------|
